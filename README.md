@@ -10,7 +10,6 @@
 ├───main.py
 ├───README.md
 ├───requirements.txt
-├───__pycache__/
 ├───.git/...
 ├───config/
 │   ├───config.py
@@ -19,7 +18,6 @@
 ├───data/
 ├───src/
 │   ├───__init__.py
-│   ├───__pycache__/
 │   ├───core/
 │   │   ├───__init__.py
 │   │   ├───document_processor.py
@@ -35,10 +33,6 @@
 │       ├───formatting_utils.py
 │       └───__pycache__/
 ├───temp_docs/
-└───venv/
-    ├───bin/...
-    ├───include/...
-    └───lib/...
 ```
 
 - **`main.py`**: Главный скрипт, который запускает процесс генерации резюме.
