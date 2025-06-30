@@ -1,0 +1,10 @@
+credentials.json
+token*
+venv/
+
+__pycache__/
+creds/
+
+temp_docs/
+data/
+*.docx
