@@ -53,8 +53,8 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone <URL-репозитория>
-    cd <имя-каталога>
+    git clone git@github.com:Kkiirra3/inserterCV.git
+    cd inserterCV
     ```
 
 2.  **Создайте и активируйте виртуальное окружение:**
