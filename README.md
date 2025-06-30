@@ -13,7 +13,6 @@
 ├───.git/...
 ├───config/
 │   ├───config.py
-│   └───__pycache__/
 ├───creds/
 ├───data/
 ├───src/
@@ -23,15 +22,12 @@
 │   │   ├───document_processor.py
 │   │   ├───skills_matrix_processor.py
 │   │   ├───template_processor.py
-│   │   └───__pycache__/
 │   ├───services/
 │   │   ├───__init__.py
 │   │   ├───google_service.py
-│   │   └───__pycache__/
 │   └───utils/
 │       ├───__init__.py
 │       ├───formatting_utils.py
-│       └───__pycache__/
 ├───temp_docs/
 ```
 
