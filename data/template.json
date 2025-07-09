@@ -1,0 +1,200 @@
+{
+  "personal_info": {
+    "name": "Hanna K.",
+    "title": "SOFTWARE ENGINEER"
+  },
+  "skills": {
+    "basic_information": {
+        "education": "Computer Science and Software Engineering",
+        "languages": ["English — B2"],
+        "domains": ["FinTech", "Management", "Social"]
+    },
+    "introduction": "Software Engineer with 5.5 years of experience. As a backend developer, I specialize in building scalable and reliable applications using Python, with expertise in frameworks like Django, FastAPI and Flask. Skilled in deploying applications on AWS and Azure, with hands-on experience in CI/CD pipelines using Jenkins and GitHub Actions. Strong knowledge of databases including MySQL and MongoDB, and message brokers like RabbitMQ and Kafka. Committed to effective communication and collaboration within distributed teams, consistently meeting deadlines with a focus on quality outcomes.",
+    "skills": {
+      "programming_languages": ["Python"],
+      "backend": [
+        "Django",
+        "Django Rest Framework",
+        "FastAPI",
+        "Flask",
+        "SQLAlchemy",
+        "Alembic",
+        "OAuth2",
+        "Pydantic",
+        "Celery",
+        "Swagger",
+        "Stripe",
+        "PayPal API",
+        "Pytest"
+      ],
+      "message_brokers": ["RabbitMQ", "Kafka", "AWS SQS"],
+      "databases": [
+        "MySQL",
+        "PostgreSQL",
+        "Redis",
+        "DynamoDB",
+        "MongoDB",
+        "Cosmos DB"
+      ],
+      "cloud": [
+        "AWS (S3, Lambda, API Gateway, CloudWatch, RDS, SES, EC2, ECS, IAM, SQS, EventBridge, SNS, EKS, DynamoDB, Cognito, etc.)",
+        "Azure(Databricks, SQL, API Management, Azure DevOps, Cosmos DB, Functions, Blob Storage, Key Vault, AKS, etc.)"
+      ],
+      "devops": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Terraform",
+        "Kubernetes(k8s)",
+        "Azure DevOps"
+      ],
+      "source_control": ["Git", "GitHub", "GitLab"]
+    }
+  },
+  "projects": [
+    {
+      "name": "FINANCIAL OPERATIONS MANAGEMENT PLATFORM",
+      "description": "An all-in-one platform designed to streamline financial operations for businesses and accounting professionals. The system offers separate modules for clients and internal finance teams. Clients can securely connect external financial services (such as banking, payroll, and invoicing), upload and organize financial documents, and oversee their financial workflows. Meanwhile, finance professionals use the platform to analyze, categorize, and support clients' financial activities, enhancing collaboration and ensuring precise, compliant financial management.",
+      "role": "Software Engineer",
+      "period": {
+        "start": "09.2023",
+        "end": "present"
+      },
+      "responsibilities": [
+        "Designing the structure of the application, including the separation of services and how they communicate with each other",
+        "Designing and implementing RESTful API architecture and schema",
+        "Backend development",
+        "Integrated Stripe and PayPal APIs to support secure online payments, subscription billing, and transaction monitoring",
+        "Managing MySQL database schemas to optimize scalability, performance, and data integrity",
+        "Writing and executing raw SQL queries in MySQL to handle complex reporting and performance-critical operations",
+        "Implemented automated backup and restore processes using MongoDB tools",
+        "Using Celery to schedule tasks to run at regular intervals",
+        "Implemented secure webhooks and reconciliation logic for Stripe and PayPal to maintain consistency between internal financial records and payment platforms",
+        "Configured AWS Lambda triggers and service integrations to enable seamless interaction with various AWS components",
+        "Built event-driven workflows by connecting AWS Lambda with EventBridge, ensuring scalable and decoupled communication between services",
+        "Developed serverless functions with AWS Lambda to handle complex business logic, focusing on scalability and cost optimization",
+        "Implementing security and compliance controls in CI/CD pipelines",
+        "Utilized RabbitMQ to send and receive messages between different parts of the platform, ensuring smooth processing of financial data",
+        "Configure Kubernetes(k8s) in various aspects of the workflow, including health checks and resource and container management",
+        "Collaborated with cross-functional teams and external projects to ensure seamless integrations",
+        "Writing unit and integration tests"
+      ],
+      "environment": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "Django Rest Framework",
+        "SQLAlchemy",
+        "Alembic",
+        "Pydantic",
+        "AWS(Lambda, Route53, API Gateway, S3, RDS, EKS, EventBridge, Cognito, CloudWatch, DynamoDB, SNS, SES, ECR, IAM etc.)",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "RabbitMQ",
+        "Docker",
+        "Docker Compose",
+        "GitHub",
+        "GitHub Actions",
+        "Kubernetes(k8s)",
+        "Stripe",
+        "PayPal API",
+        "Pytest"
+      ]
+    },
+    {
+      "name": "CONVENTION ANALYSIS TOOLKIT",
+      "description": "The application is designed to collect and analyze data about conferences, including attendee numbers, accommodation details, and expenditure analysis. Built on a microservices architecture, it allows partners to upload data, which is then parsed and stored. Based on this data, the application generates event-related graphs.",
+      "role": "Software Engineer",
+      "period": {
+        "start": "12.2021",
+        "end": "08.2023"
+      },
+      "responsibilities": [
+        "Backend development",
+        "Implemented user authentication through OAuth2",
+        "Monitoring metrics in an Azure SQL database",
+        "Implementing background calculations with Azure Functions",
+        "Utilizing Celery to perform asynchronous tasks",
+        "Monitored and troubleshooted CI/CD pipeline failures",
+        "Implement, and maintain CI/CD pipelines using Azure DevOps for automated testing, building, and deployment",
+        "Covering all code by documentation",
+        "Built scalable data pipelines using Azure Databricks for processing large volumes of structured and unstructured data",
+        "Performed deep analysis of slow-performing queries, rewriting them in raw SQL for better control over execution plans",
+        "Integrated PostgreSQL metrics into centralized monitoring systems",
+        "Configure and maintain security best practices in Azure Key Vault and API Management",
+        "Manage cloud-based solutions in Azure for high availability and scalability",
+        "Optimized slow PostgreSQL queries by analyzing execution plans and rewriting SQL",
+        "Built monitoring and alerting around Kafka topics, consumer groups, and lag metrics",
+        "Tracking Kafka consumer lag in real time to detect processing delays early",
+        "Orchestrating complex workflows and dependencies across multiple GitLab repositories and external services using GitLab CI workflows",
+        "Writing unit and integration tests"
+      ],
+      "environment": [
+        "Python",
+        "FastAPI",
+        "Django",
+        "Django Rest Framework",
+        "SQLAlchemy",
+        "Alembic",
+        "Pydantic",
+        "Kafka",
+        "OAuth2",
+        "PostgreSQL",
+        "Celery",
+        "Azure(Databricks, SQL, API Management, Azure DevOps, Cosmos DB, Functions, Blob Storage, Key Vault, AKS, etc.)",
+        "Docker",
+        "Kubernetes(k8s)",
+        "Docker Compose",
+        "GitLab",
+        "GitLab CI/CD",
+        "Pytest"
+      ]
+    },
+    {
+      "name": "PHILANTHROPY DATA PLATFORM",
+      "description": "A data-driven system for collecting and analyzing publicly available information across global sources to map, monitor, and evaluate charitable initiatives and giving patterns. The platform offers structured insights into philanthropic activity worldwide, enabling stakeholders to identify trends, ensure transparency, and make informed decisions in the social impact space.",
+      "role": "Software Engineer",
+      "period": {
+        "start": "11.2019",
+        "end": "12.2021"
+      },
+      "responsibilities": [
+        "Backend development",
+        "Creating AWS Lambda functions to process data and interact with various databases, including DynamoDB and relational databases via raw SQL",
+        "Implementing dead-letter queues to handle failed message processing in SQS workflows",
+        "Configuring SQS queues to trigger Lambda functions for event-driven execution",
+        "Setting up RabbitMQ queues with appropriate exchanges to route messages by topic",
+        "Monitoring AWS Lambda functions and infrastructure health with AWS CloudWatch, setting up alarms and dashboards for proactive issue detection",
+        "Setting up and maintaining CI/CD pipelines using GitHub Actions for automated testing and deployment",
+        "Writing efficient raw SQL queries for faster data retrieval",
+        "Optimizing MySQL tables performance by rebuilding indexes for faster query execution",
+        "Managing Kubernetes(k8s) cluster on AWS EKS",
+        "Writing and deploying reusable, modular Terraform code to efficiently manage and provision cloud infrastructure components",
+        "Writing unit tests"
+      ],
+      "environment": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "SQLALchemy",
+        "Alembic",
+        "Pydantic",
+        "Swagger",
+        "RabbitMQ",
+        "AWS(Lambda, EKS, S3, Cloud Watch, RDS, SQS, DynamoDB, AIM, Cognito, etc.)",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "GitHub",
+        "GitHub Actions",
+        "Terraform",
+        "Kubernetes(k8s)",
+        "Docker",
+        "Docker Compose",
+        "Pytest"
+      ]
+    }
+  ]
+} 

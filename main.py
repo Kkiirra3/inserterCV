@@ -1,4 +1,3 @@
-import os
 from config.config import Config
 from src.core.document_processor import DocumentProcessor
 
@@ -6,7 +5,6 @@ from src.core.document_processor import DocumentProcessor
 def main():
     listpage_url = Config.LISTPAGE_TEMPLATE_URL
     maininfo_url = Config.MAIN_INFO_TEMPLATE_URL 
-    
     template_path = 'data/template.json'
     
     doc_processor = DocumentProcessor()
